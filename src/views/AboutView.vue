@@ -37,12 +37,16 @@
     height: 100px;
     padding-top:30px;
 }
-.card:nth-child(1){
-     background-image: url("https://i.postimg.cc/DwhKprn2/janan-lagerwall-Oo-W1-DMDCV1-Y-unsplash.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-blend-mode: overlay;
-    background-attachment: fixed;
-    padding: 0;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+.card > :nth-child(1){
+    background-image: url("https://i.postimg.cc/DwhKprn2/janan-lagerwall-Oo-W1-DMDCV1-Y-unsplash.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  
+}
+.card > :nth-child(2){
+    background-image: url("https://i.postimg.cc/bvVrfz8s/tobias-reich-0-Xd-WYVDCJZY-unsplash.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  
+}
+.card > :nth-child(3){
+    background-image: url("https://i.postimg.cc/DwhKprn2/janan-lagerwall-Oo-W1-DMDCV1-Y-unsplash.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  
 }
 </style>
