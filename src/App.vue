@@ -13,11 +13,6 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-
-
 }
 nav {
   padding: 30px;
@@ -31,6 +26,14 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #728ab9;
- 
+}
+h5{
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
 }
 </style>
