@@ -9,24 +9,26 @@
     </form>
   </main>
   <div class="socials d-flex justify-content-between">
-    <i class='bx bxl-facebook' data-bs-toggle="tooltip" data-bs-placement="top" title="On Arrival"></i>
-    <i class='bx bxl-instagram'  data-bs-toggle="tooltip" data-bs-placement="top" title="During the stay"></i>
-    <i class='bx bxl-linkedin' data-bs-toggle="tooltip" data-bs-placement="top" title="On Departure"></i>
-    <i class='bx bxl-youtube' data-bs-toggle="tooltip" data-bs-placement="top" title="My Booking"></i>
-
+  <router-link :to="{ path: 'MyBooking' }"><i class='bx bxl-facebook' data-bs-toggle="tooltip" data-bs-placement="top" title="On Arrival"></i></router-link>
+   <router-link :to="{ path: 'Arrival' }">  <i class='bx bxl-instagram'  data-bs-toggle="tooltip" data-bs-placement="top" title="During the stay"></i></router-link>
+    <router-link :to="{ path: 'During' }"> <i class='bx bxl-linkedin' data-bs-toggle="tooltip" data-bs-placement="top" title="On Departure"></i></router-link>
+    <router-link :to="{ path: '/' }"> <i class='bx bxl-youtube' data-bs-toggle="tooltip" data-bs-placement="top" title="My Booking"></i></router-link>
   </div>
+  <router-link :to="{ path: 'MyBooking' }"></router-link>
+
 </template>
 <style scoped>
 main {
     background-image: url("https://i.postimg.cc/DwhKprn2/janan-lagerwall-Oo-W1-DMDCV1-Y-unsplash.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     background-blend-mode: overlay;
     background-attachment: fixed;
     background-position: center;
-    padding: 0;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    object-fit: cover;
     width: 100vw;
     height: 89vh;
+    padding: 0;
 }
 .display-2{
     color: white;
